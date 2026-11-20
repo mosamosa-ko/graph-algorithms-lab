@@ -1,0 +1,10 @@
+{
+  "generated_at_utc": "2026-11-19T10:03:05.572950+00:00",
+  "python": "3.14.8 (main, Sep 30 2026, 17:55:09) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O",
+  "processor": "arm",
+  "timer": "time.perf_counter_ns",
+  "warmups": 3,
+  "seed": 2026,
+  "note": "Wall-clock timings are environment-dependent; rerun before comparison."
+}

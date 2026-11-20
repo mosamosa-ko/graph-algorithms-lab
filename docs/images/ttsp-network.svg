@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="420" viewBox="0 0 760 420" role="img" aria-label="TTSP network">
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/></marker>
+  <style>
+    .edge { stroke: #64748b; stroke-width: 2; }
+    .vertex { fill: #e2e8f0; stroke: #334155; stroke-width: 2; }
+    .terminal { fill: #67e8f9; stroke: #0e7490; stroke-width: 3; }
+    .operator { fill: #0f766e; stroke: #134e4a; stroke-width: 2; }
+    .leaf { fill: #dbeafe; stroke: #1d4ed8; stroke-width: 2; }
+    .label { fill: #0f172a; font: 600 13px ui-monospace, monospace; }
+    .operator + .label { fill: #ffffff; }
+    .step { fill: #f8fafc; stroke: #475569; stroke-width: 1.5; }
+    .step-title { fill: #0f766e; font: 700 13px ui-sans-serif, sans-serif; }
+    .small { fill: #334155; font: 12px ui-sans-serif, sans-serif; }
+  </style>
+</defs>
+<line x1="237.2" y1="222.0" x2="522.8" y2="222.0" class="edge"/>
+<line x1="237.2" y1="222.0" x2="380.0" y2="364.8" class="edge"/>
+<line x1="380.0" y1="364.8" x2="522.8" y2="222.0" class="edge"/>
+<line x1="522.8" y1="222.0" x2="380.0" y2="79.2" class="edge"/>
+<path d="M522.8,222.0 Q469.4,132.6 380.0,79.2" class="edge" fill="none"/>
+<circle cx="237.2" cy="222.0" r="13" class="terminal"/>
+<text x="237.2" y="227.0" class="label" text-anchor="middle">s</text>
+<circle cx="380.0" cy="79.2" r="13" class="terminal"/>
+<text x="380.0" y="84.2" class="label" text-anchor="middle">t</text>
+<circle cx="522.8" cy="222.0" r="13" class="vertex"/>
+<text x="522.8" y="227.0" class="label" text-anchor="middle">v0</text>
+<circle cx="380.0" cy="364.8" r="13" class="vertex"/>
+<text x="380.0" y="369.8" class="label" text-anchor="middle">v1</text>
+</svg>
